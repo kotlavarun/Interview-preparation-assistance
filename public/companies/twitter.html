@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Details - Twitter</title>
+    <link rel="stylesheet" href="company.css"> <!-- Add your stylesheet here -->
+</head>
+<body>
+    <header>
+        <h1>PrepareMe</h1>
+    </header>
+    <main>
+        <section class="company-details">
+            <h2>Twitter</h2>
+            <div class="questions" id="questions">
+                <!-- Questions will be dynamically added here -->
+            </div>
+            <form id="addQuestionForm">
+                <h3>Add a new question</h3>
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" required></textarea>
+                <label for="answer">Answer:</label>
+                <textarea id="answer" name="answer" required></textarea>
+                <button type="submit">Add Question</button>
+            </form>
+        </section>
+    </main>
+    <script src="questions.js"></script>
+</body>
+</html>

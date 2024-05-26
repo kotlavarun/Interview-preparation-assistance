@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PrepareMe</title>
+    <link rel="stylesheet" href="landing.css"> <!-- Add your stylesheet here -->
+</head>
+<body>
+    <div id="profile-button" class="profile-button">
+        <!-- User's name and phone number will be inserted here -->
+    </div>
+
+    <header>
+        <h1>Welcome to PrepareMe</h1>
+    </header>
+    <main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+        <section class="topics">
+            <h2>Topics</h2>
+            <div class="topic-buttons">
+                <button onclick="window.location.href='topics/array.html'">
+                    <img src="images/array.jpg" alt="Array">
+                    Array
+                </button>
+                <button onclick="window.location.href='topics/string.html'">
+                    <img src="images/string.png" alt="String">
+                    String
+                </button>
+                <button onclick="window.location.href='topics/linkedlist.html'">
+                    <img src="images/linkedlist.png" alt="Linked List">
+                    Linked List
+                </button>
+                <button onclick="window.location.href='topics/stack.html'">
+                    <img src="images/stack.jpg" alt="Stack">
+                    Stack
+                </button>
+                <button onclick="window.location.href='topics/queue.html'">
+                    <img src="images/queue.jpg" alt="Queue">
+                    Queue
+                </button>
+                <button onclick="window.location.href='topics/tree.html'">
+                    <img src="images/tree.jpg" alt="Tree">
+                    Tree
+                </button>
+                <button onclick="window.location.href='topics/graph.html'">
+                    <img src="images/graph.jpg" alt="Graph">
+                    Graph
+                </button>
+                <button onclick="window.location.href='topics/hashtable.html'">
+                    <img src="images/hashtable.png" alt="Hash Table">
+                    Hash Table
+                </button>
+                <button onclick="window.location.href='topics/dynamicprogramming.html'">
+                    <img src="images/dynamic programming.jpg" alt="Dynamic Programming">
+                    Dynamic Programming
+                </button>
+                <button onclick="window.location.href='topics/greedy.html'">
+                    <img src="images/greedy.png" alt="Greedy">
+                    Greedy
+                </button>
+            </div>
+        </section>
+        <section class="companies">
+            <h2>Companies</h2>
+            <div class="company-buttons">
+                <button onclick="window.location.href='companies/google.html'">
+                    <img src="images/google.jpeg" alt="Google">
+                    Google
+                </button>
+                <button onclick="window.location.href='companies/amazon.html'">
+                    <img src="images/amazon.jpeg" alt="Amazon">
+                    Amazon
+                </button>
+                <button onclick="window.location.href='companies/facebook.html'">
+                    <img src="images/facebook.jpeg" alt="Facebook">
+                    Facebook
+                </button>
+                <button onclick="window.location.href='companies/microsoft.html'">
+                    <img src="images/microsoft.jpeg" alt="Microsoft">
+                    Microsoft
+                </button>
+                <button onclick="window.location.href='companies/apple.html'">
+                    <img src="images/apple.jpeg" alt="Apple">
+                    Apple
+                </button>
+                <button onclick="window.location.href='companies/netflix.html'">
+                    <img src="images/netflix.jpeg" alt="Netflix">
+                    Netflix
+                </button>
+                <button onclick="window.location.href='companies/uber.html'">
+                    <img src="images/uber.jpg" alt="Uber">
+                    Uber
+                </button>
+                <button onclick="window.location.href='companies/linkedin.html'">
+                    <img src="images/LinkedIn.jpg" alt="LinkedIn">
+                    LinkedIn
+                </button>
+                <button onclick="window.location.href='companies/twitter.html'">
+                    <img src="images/twitter.jpg" alt="Twitter">
+                    Twitter
+                </button>
+                <button onclick="window.location.href='companies/airbnb.html'">
+                    <img src="images/airbnb.jpg" alt="Airbnb">
+                    Airbnb
+                </button>
+            </div>
+        </section>
+        <section class="resume-editor" >
+            <h2>Resume Editor</h2>
+            <div contenteditable="true" id="resumeTemplate" class="resume-template" >
+                <h1 align="center"><b>SAI KRISHNA</h1>
+                <p align="center">vuppulasiddarth@gmail.com| Hyderabad, India |+91 7396225050               </p>
+                <p>I am Sai Krishna, a third-year student pursuing a Bachelor's degree in Computer Science with a focus on Artificial Intelligence & Machine Learning at GITAM Hyderabad. Proficient in Python and Java programming, I possess a strong enthusiasm for AI & ML. Recognized for my teamwork skills and leadership abilities, I am dedicated to completing tasks with unwavering effort. Outside academics, I actively engage in volleyball and avidly read books to broaden my horizons. With a flexible and adaptable approach to challenges, I am confident that my technical expertise, leadership qualities, and passion for learning make me an invaluable addition to any team.</p>
+                <h2>Education</h2>
+                <hr>
+                <p>Bachelor of Science in Computer Science</p>
+                <p>University of XYZ</p>
+                <h2>Skills</h2>
+                <hr>
+                <p>ProgrammingLanguages: Java,Python,SQL,OracleSQLDatabase</p>
+                <p>Version Control Tools : Eclipse, Pycharm, Jupiter Notebook, GitHub, Data Visualization tools.</p>
+                <p>Course Work: DSA, Java, Advanced JAVA, Advanced Python, Python, OS, Python, AI&ML, Data Science</p>
+                <p>Soft Skills: Collaboration, Teamwork, Planning, Communication, Leadership, Time Management, Presentation Skills</p>
+                <h2>Projects</h2>
+                <hr>
+                <p>Voice Assistant :</p>
+                    <ul>
+                        <li>Developed Python voice assistant with pyttsx3 and pywhatkit for seamless interaction.</li>
+                        <li>Programmed dynamic greetings and intelligent responses, enhancing AI and voice tech skills.</li>
+                    </ul>
+                    <p>Film Suggestion Engine:</p>
+                    <ul>
+                        <li>Built a sophisticated recommendation search engine using Python, ML algorithms, and Pandas for data analysis, optimizing product recommendations through regression techniques.</li>
+                    </ul>
+                    <p>BMI calculator:</p>
+                    <ul>
+                        <li>Calculate BMI using weight and height inputs and categorize into Underweight, Normal weight, Overweight, or Obese based on the BMI value.</li>
+                        <li>Prompt user for weight and height inputs, validate input values, then display calculated BMI value and category..</li>
+                    </ul>
+
+                    <p>Internships</p>
+                    <hr>
+                    <p>Osais Infobyte: Osais Infobyte Internship in Data Science: Hands-on training in Python programming and data science concepts. Acquired proficiency in NumPy, Pandas, Scikit-learn, and TensorFlow libraries. Executed real-world projects applying regression, classification, clustering, and deep learning techniques. Demonstrated effective teamwork and communication skills in collaborative projects. Received personalized mentorship to enhance data science and AI skills, fostering a comprehensive understanding of industry practices and applications. Additionally, obtained a Letter of Recommendation (LOR) for the internship.</p>
+                    
+                    <p>Extra Circular Activities</p>
+                    <hr>
+                    <ul>
+                        <li>Disha Club Member, GITAM, Hyderabad (2023 - present)</li>
+                        <li>GUSTO Volunteering Member(Sports Event),GITAM,Hyderabad(2024 March)</li>
+                        <li>Pramana Cultural Member,GITAM, Hyderabad(2024 Feb)</li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <button id="downloadResume">Download Resume</button>
+        </section>
+    </main>
+    <script src="landing.js"></script>
+</body>
+</html>
